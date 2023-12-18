@@ -24,7 +24,6 @@ public class AllQuiztest {
         assertEquals(25, quiz.square(5));
         assertEquals(0, quiz.square(0));
         assertEquals(1, quiz.square(-1));
-        // Assuming you want to handle null gracefully and return null
         assertEquals(null, quiz.square(null));
     }
 
@@ -37,18 +36,22 @@ public class AllQuiztest {
     }
 
     @Test
-    public void testA() {
+    public void testa() {
         Assert.assertEquals(1, quiz.countLetterA("a"));
     }
 
     @Test
-    public void testAA() {
+    public void testaa(aa) {
         Assert.assertEquals(2, quiz.countLetterA("aa"));
     }
-	@Test
-    public void testAB() {
-        Assert.assertEquals(1, quiz.countLetterA("AB"));
-	}
+    @Test
+    public void testAb() {
+        Assert.assertEquals(1, quiz.countLetterA("Ab"));
+    }
+    @Test
+    public void testAA() {
+        Assert.assertEquals(2, quiz.countLetterA("AA"));
+    }
 
 ///////////////////////////////////////////////F3////////////////////////////////////////////////////////////
     @Test
